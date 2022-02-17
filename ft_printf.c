@@ -41,7 +41,7 @@ int	ft_printf(const char *s, ...)
 	i[0] = -1;
 	i[1] = 0;
 	len = 0;
-	if (!*s)
+	if (!s)
 		return (0);
 	while (s[++(i[0])])
 	{
